@@ -12,10 +12,9 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
-  scroll(id) {
-
-    console.log('el id: ', id);
-    const el = document.getElementById(id);
-    el.scrollIntoView();
+  topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
   }
+
 }

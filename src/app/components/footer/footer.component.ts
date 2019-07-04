@@ -45,7 +45,6 @@ export class FooterComponent implements OnInit {
     social_medi_data.icon = "fab fa-instagram icon-btn";//Instagram 
     this.social_media.push(social_medi_data);
     //////
-    console.log(social_medi_data);
     social_medi_data = {
       label : "",
       icon : "",
@@ -56,7 +55,6 @@ export class FooterComponent implements OnInit {
     social_medi_data.icon = "fab fa-github icon-btn";//Github 
     this.social_media.push(social_medi_data);
     ///////
-    console.log(social_medi_data);
     social_medi_data = {
       label : "",
       icon : "",
@@ -67,7 +65,6 @@ export class FooterComponent implements OnInit {
     social_medi_data.icon = "fab fa-linkedin icon-btn";//Linkedin 
     this.social_media.push(social_medi_data);
     ////////
-    console.log(social_medi_data);
     social_medi_data = {
       label : "",
       icon : "",
@@ -77,7 +74,6 @@ export class FooterComponent implements OnInit {
     social_medi_data.link = "#";
     social_medi_data.icon = "fab fa-google-plus icon-btn";//Instagram 
     this.social_media.push(social_medi_data);
-    console.log(this.social_media);
     
   }
 

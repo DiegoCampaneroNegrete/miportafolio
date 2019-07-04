@@ -24,8 +24,21 @@
     </div>
     <!-- Mask & flexbox options-->
   </div>
-  alv perrros chauuuu
 </section>
+
+
+<!--Scroll to top-->
+<div class="scroll-to-top" [ngClass]="{'show-scrollTop': windowScrolled}">
+    
+</div>
+
+<button (click)="topFunction()" id="myBtn" title="Go to top">
+    <i class="fa fa-chevron-up"></i>
+    Top
+</button>
+
+
+
 <div id="about"></div>
 <main>
   <div class="container">
@@ -47,7 +60,7 @@
 
                     <div id="curve" mdbWavesEffect class=" card1 circle text-center rounded-circle waves-light">
 
-                        <img src="assets/Doge.jpg" class="doge">
+                        <img src="assets/foto.jpg" class="doge">
 
 
                         <div class="footer">
@@ -113,7 +126,7 @@
                 </div>
                 <mdb-card-body>
 
-                    <h5 class="font-weight-bold dark-grey-text my-1">Doge</h5>
+                    <h5 class="font-weight-bold dark-grey-text my-1">Diego Campanero</h5>
                     <h8 class="text-uppercase grey-text mb-1">
                         <strong>Web Developer</strong>
                     </h8>
@@ -121,6 +134,7 @@
                     <!--Quotation-->
                     <p class="dark-grey-text mt-4">
                         <i class="fa fa-quote-left pr-2"></i>
+                        Soy un desarrollador web 
                         Doge is a best web developer in this univers, Engineer programmer with advanced technologies
                         of dogs,
                         is winner and a very good dog
