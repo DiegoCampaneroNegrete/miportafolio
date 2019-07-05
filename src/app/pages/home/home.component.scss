@@ -95,6 +95,10 @@
     -webkit-transform: translateY( 0px);
     transform: translateY( 0px );
   }
+
+  #curve{
+    margin-top: 10%;
+  }
   
   .connections {
     width: 400px;
@@ -230,7 +234,7 @@
   
 
 
-
+////Propio
 
   .scroll-to-top {
     position: fixed;
@@ -264,4 +268,8 @@
   
   #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+  #main-sectio{
+    padding-top : 10%
   }
