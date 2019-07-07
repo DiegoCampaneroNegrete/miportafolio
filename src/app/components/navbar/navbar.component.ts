@@ -13,16 +13,16 @@ export class NavbarComponent implements OnInit {
   }
 
   scroll(id) {
-
     console.log('el id: ', id);
     const el = document.getElementById(id);
+    console.log(el);
     el.scrollIntoView();
   }
 
-  @HostListener("window:scroll", ['$event'])
-  doSomethingOnWindowsScroll($event:Event){
-    this.scrollFunction();
-  }
+    @HostListener("window:scroll", ['$event'])
+    doSomethingOnWindowsScroll($event:Event){
+      this.scrollFunction();
+    }
 
   scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
