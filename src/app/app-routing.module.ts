@@ -13,9 +13,6 @@ export class AppRoutingModule { }
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent},
-
-
-
   // otherwise redirect to home
   { path: '**', redirectTo: '' }
 ];
