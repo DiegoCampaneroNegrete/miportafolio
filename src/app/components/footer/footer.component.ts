@@ -28,11 +28,11 @@ export class FooterComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.cellphone = "3334493850";
+    this.cellphone = "+33-34-4938-50s";
     this.slogan = "Me la pelan la verga todos!!!";
     this.tel = "*****";
     this.email = "diegoa.campaneron@gmail.com";
-    this.company = "Lobukis Company";
+    this.company = "Diego Alejandro Campanero Negrete";
     this.year = new Date().getFullYear()+"";
 
     let social_medi_data = {
@@ -40,11 +40,12 @@ export class FooterComponent implements OnInit {
       icon : "",
       link : "",
     }
+    /*
     social_medi_data.label = "Instragram";
     social_medi_data.link = "#";
     social_medi_data.icon = "fab fa-instagram icon-btn";//Instagram 
     this.social_media.push(social_medi_data);
-    //////
+    /*/////
     social_medi_data = {
       label : "",
       icon : "",

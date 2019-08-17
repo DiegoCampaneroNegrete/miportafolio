@@ -1,4 +1,5 @@
 import { Component, OnInit, HostListener } from '@angular/core';
+import { ViewportScroller } from '@angular/common';
 
 @Component({
   selector: 'app-navbar',
@@ -7,16 +8,21 @@ import { Component, OnInit, HostListener } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  constructor(private vps: ViewportScroller) { }
 
   ngOnInit() {
   }
 
   scroll(id) {
+    
     console.log('el id: ', id);
     const el = document.getElementById(id);
     console.log(el);
     el.scrollIntoView();
+    ///*
+    console.log('el id: ', id);
+    this.vps.scrollToAnchor(id);
+    //*/
   }
 
     @HostListener("window:scroll", ['$event'])
