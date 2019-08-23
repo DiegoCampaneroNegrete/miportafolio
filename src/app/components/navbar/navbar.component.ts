@@ -14,12 +14,13 @@ export class NavbarComponent implements OnInit {
   }
 
   scroll(id) {
-    
+    /*
     console.log('el id: ', id);
     const el = document.getElementById(id);
     console.log(el);
     el.scrollIntoView();
-    ///*
+
+    ///*/
     console.log('el id: ', id);
     this.vps.scrollToAnchor(id);
     //*/
